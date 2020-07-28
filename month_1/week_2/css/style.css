@@ -1,0 +1,161 @@
+/* Base Styling */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    margin: 25px 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+
+/* Defaults */
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+section {
+    overflow: auto;
+}
+
+.wrap {
+    max-width: 1280px;
+    padding: 50px;
+}
+
+.highlights {
+    background-color: #bdd5ea;
+}
+
+.packages table {
+    margin: 0 auto;
+}
+
+/***** Homepage *****/
+
+/***** Nav *****/
+
+nav li {
+    display: inline;
+}
+
+/***** Header *****/
+
+
+header {
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 0;
+    background-image: url("../images/conference-hero.jpg")
+}
+
+header img {
+    margin: 0 auto;
+    width: 200px;
+}
+
+/***** 3 point section *****/
+
+#three-points {
+
+}
+
+.three-points-section {
+    min-height: 400px;
+}
+
+.three-points-section img {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.three-points-section-image {
+    width: 40%;
+    float: left;
+}
+
+.three-points-section-text {
+    width: 60%;
+    float: left;
+}
+
+/***** Table *****/
+
+table {
+    background-color: #bdd5ea;
+}
+
+/***** Speakers *****/
+
+#speakers h3 {
+    text-align: center;
+}
+
+.speakers-section {
+    min-height: 300px;
+}
+.speakers-section img {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.speakers-section-col-1 {
+    width: 50%;
+    float: left;
+}
+
+.speakers-section-col-2 {
+    width: 50%;
+    float: left;
+}
+
+.speakers-section-image {
+    width: 50%;
+    float: left;
+}
+
+.speakers-section-text {
+    width: 50%;
+    float: left;
+}
+
+/***** Footer *****/
+
+footer {
+    background-color: #495867;
+    text-align: center;
+    color: #ffffff;
+}
+
+/***** Tickets *****/
+
+#ticket-form {
+    text-align: center;
+}
+
+input {
+    margin: 10px 0;
+} 

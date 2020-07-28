@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <title>Get Tickets!</title>
+
+    <!-- Travis - i put this in so I could read the page I was creating better.-->
+    <style>
+        body {background-color: darkgrey;}
+    </style>
+</head>
+
+<body>
+
+<header>
+<nav>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="./tickets.html">Tickets</a></li>
+    </ul>
+</nav>
+
+    <img src="images/hero-symbol.jpg">
+    <h2>Advancing Technology</h2>
+    <h3>1st Annual Budding Developers Conference</h3>
+    <p>Orlando, FL - October 11, 2020</p>
+</header>
+
+<section>
+    <h1>Tickets</h1>
+    <form method="post">
+    <label>Name <input name="name" required></label>
+    <label>Email <input name="email" required></label><br>
+    <select>
+        <option value="standard">Standard - $149</option>
+        <option value="premium">Premium - $249</option>
+    </select>
+
+    <h2>Package</h2>
+
+    <input type="checkbox" name="lodging">Add on lodging - $99<br>
+    <input type="checkbox" name="meals">Add on meals - $119
+    <br>
+    <input type="submit" value="Submit">
+
+    </form>
+
+    <p><a href="./index.html">Back to Home</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2020</p>
+</footer>
