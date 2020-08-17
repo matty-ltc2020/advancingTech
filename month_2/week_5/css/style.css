@@ -58,12 +58,20 @@ section {
   background-color: #bdd5ea;
 }
 
+
+
 /***** Homepage *****/
 
 /***** Nav *****/
 
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
 nav li {
-  display: inline;
+  list-style: none;
+  padding: 0 10px 0 0;
 }
 
 /***** Header *****/
@@ -81,6 +89,25 @@ header img {
   border: 2px solid #ffffff;
   padding: 3px;
   border-radius: 50%;
+}
+
+/***** Features section *****/
+
+.features {
+  background-color: #bdd5ea;
+}
+
+.features h3 {
+  text-align: center;
+}
+
+.features ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.features li {
+  list-style: none;
 }
 
 /***** 3 point section *****/
@@ -222,4 +249,63 @@ footer {
 
 input {
   margin: 10px 0;
+}
+
+/***** Media Queries *****/
+
+/* typical standard widths: 1200px, 1080px, 768px, 480px */
+
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 16px;
+  }
+
+  .three-points-section-image {
+    width: 150px;
+    margin: 0 auto;
+    padding-right: 10px;
+  }
+
+  .features ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .speakers-section img {
+  width: 75px;
+  margin: 0 auto;
+  border-radius: 50%;
+  }
+
+  h1 {
+  font-size: 32px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .three-points-section-image {
+    display: none;
+  }
+
+  .speakers-section img {
+    display: none;
+}
+
 }
